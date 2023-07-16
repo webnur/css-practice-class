@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .div-1 > p{
+    background-color: red;
+    color: white;
+}
+.div-2 >p {
+    background-color: yellow;
+    color: black;
+}
+
+.div-1 + p {
+    background-color: green;
+    color: white;
+}
+
+.div-2 ~ h2 {
+    background-color: blanchedalmond;
+   color: red;
+} */
+
+/* p:first-child {
+    background-color: red;
+    color:  white;
+} */
+
+/* p:nth-child(8){
+    background-color: red;
+    color:  white;
+} */
+
+p::after{
+    content: 'Hello Bangladesh';
+}
+p::before{
+    content: 'Hello lorem how are you?';
+}
